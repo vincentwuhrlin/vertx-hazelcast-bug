@@ -1,3 +1,4 @@
+# Vertx Hazelcast bug ? (15/01/2016)
 
 We use EventBus for microservices and when an instance poweroff, the message are send to died instances. Very problematic with Kubernetes architecture when you scale up / down instances.
 
