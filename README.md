@@ -1,6 +1,3 @@
-Hello,
-
-don't know if it's the same bug, but it's a very blocking problem to go to production with Vertx...
 
 We use EventBus for microservices and when an instance poweroff, the message are send to died instances. Very problematic with Kubernetes architecture when you scale up / down instances.
 
@@ -29,5 +26,3 @@ We use EventBus for microservices and when an instance poweroff, the message are
 - Can you confirm this bug ?
 - Someone have similar problems ?
 - If it's a bug, is a patch planned in next release of Vertx ? (this is a very blocking problem for my project).
-
-Thank you very much for you help !
